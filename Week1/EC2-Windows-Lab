@@ -1,0 +1,7 @@
+![Windows EC2](https://static.us-east-1.prod.workshops.aws/public/b8d66c76-0455-4d13-8acd-9002b999b537/static/images/ec2-windows/amazon-ec2win-architecture.svg)
+
+CREATING AN EC2 INSTANCE.
+
+- search for ec2 in the search menu.
+- in the network section create a keypair tonuse in decrypting the password to log into the ec2 instance.
+
