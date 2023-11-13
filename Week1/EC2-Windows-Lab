@@ -1,7 +1,12 @@
-![Windows EC2](https://static.us-east-1.prod.workshops.aws/public/b8d66c76-0455-4d13-8acd-9002b999b537/static/images/ec2-windows/amazon-ec2win-architecture.svg)
-
 CREATING AN EC2 INSTANCE.
 
 - search for ec2 in the search menu.
 - in the network section create a keypair tonuse in decrypting the password to log into the ec2 instance.
-
+- Click on Launch Instance and then select Launch instance from the drop down.
+- Add a desired name i.e [Your Initials] Windows Web Server
+- Select t2.medium in Instance Type.
+- Select the key pair that you created in the beginning of this lab from the drop-down.
+- In the Network settings section, configure the security group to Allow RDP and HTTP from the internet.
+- Expand the Advanced Details tab at the bottom of the screen and enter the following values in the User data field. For all other choices accept the default values. 
+- input the user data script.
+- Verify your selections are correct and then choose Launch instance.
